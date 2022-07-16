@@ -9,7 +9,7 @@ public class KDVHesaplayici{
         System.out.println("Ürün fiyatını giriniz:");
         tutar = scan.nextDouble();
 
-        kdvTutari = tutar * 0.18;
+        kdvTutari = tutar < 1000 ? (tutar * 0.18) : (tutar * 0.08);
         kdvliTutar = tutar + kdvTutari;
 
         System.out.println("\nÜrün Fiyatı\t" + tutar);
