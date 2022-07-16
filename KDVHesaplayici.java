@@ -12,11 +12,11 @@ public class KDVHesaplayici{
         kdvTutari = tutar * 0.18;
         kdvliTutar = tutar + kdvTutari;
 
-        System.out.println("Ürün Fiyatı\t" + tutar);
-        System.out.printf("\nKDV Tutarı\t%.2f", kdvTutari);
+        System.out.println("\nÜrün Fiyatı\t" + tutar);
+        System.out.printf("KDV Tutarı\t%.2f", kdvTutari);
         System.out.println("\nToplam Fiyat\t" + kdvliTutar);
 
-        System.out.println("------------------------------------------------------------------");
+        System.out.println("-----------------------");
 
     }
 }
